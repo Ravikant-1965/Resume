@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+
+.container {
+    display: flex;
+    width: 79%;
+    max-width: 1600px;
+    height: 90vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section: Introduction */
+.intro-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro-section h1 span {
+    color: #ffcc00;
+}
+
+.intro-section h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.intro-section p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.intro-section button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Right Section: Profile Picture */
+.proPic1{
+    width: 100%;
+}
+
+.profile-section {
+    flex: 1;
+    position: relative;
+    background-color: #f5f5f5;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* .profile-section img {
+    max-width: 150%;
+    border-radius: 0%;
+} */
+
+/* Vertical Icon Bar */
+.icon-bar {
+    background-color: #ffcc00;
+    border-radius: 50px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-bar .icon {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.6em;
+    margin: 12px 3px;
+    text-align: center;
+}
+
+/* .icon-bar .icon:hover {
+    color: #FFD700;
+} */
+
+
+
+/* ==================================================================================================== */
+/* About Me */
+.links li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.links li a:hover{
+    /* color: #000; */
+    padding: 8px 16px;
+    transition: transform 0.3s ease;
+}
+
+
+.container-am {
+    display: flex;
+    width: 1080px;
+    max-width: 1600px;
+    height: 90vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.sidebar {
+    background-color: #ffcc00;
+    padding: 20px;
+    width: 250px;
+    color: #000000;
+    text-align: center;
+}
+
+.sidebar .profile-pic img {
+    position: relative;
+    border-radius: 10%;
+    width: 215px;
+    height: 250px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.sidebar nav ul li {
+    padding: 15px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* .sidebar nav ul li:hover {
+    color: #000;
+} */
+
+.main-content {
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stat-box {
+    background-color: #333;
+    color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.stat-box h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.stat-box p {
+    font-size: 14px;
+}
+
+.skills-section {
+    margin-top: 30px;
+}
+
+.skills-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style: none;
+}
+
+.skills-section li {
+    margin-bottom: 10px;
+}
+
+.skills-section li strong {
+    font-weight: bold;
+}
+
+.sidebar ul li {
+    list-style: none;
+
+}
+
+
+/* =========================================================================================================== */
+
+/* Resume Page */
+
+.education{
+    position: absolute;
+    top: 120px;
+}
+
+.languages{
+    position: absolute;
+    top: 220px;
+}
+
+.skills{
+    position: absolute;
+    top: 340px;
+}
+
+.achievements{
+    position: absolute;
+    top: 470px;
+}
+
+.extracurricular{
+    position: absolute;
+    left: 700px;
+    bottom: 332px;
+}
+
+/* ======================================================================================================= */
+/* PortFolio */
+.p1 img{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+}
+.p2 img{
+    width: 400px;
+    position: absolute;
+    top: 400px;
+}
+.p3 img{
+    width: 370px;
+    position: absolute;
+    left: 835px;
+    /* bottom: 175px; */
+}
+.p4 img{
+    width: 370px;
+    position: absolute;
+    left: 835px;
+    top: 300px;
+    /* bottom: 640px; */
+}
